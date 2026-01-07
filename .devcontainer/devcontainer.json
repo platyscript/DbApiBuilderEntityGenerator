@@ -1,0 +1,31 @@
+{
+  "name": ".NET 8",
+  "image": "mcr.microsoft.com/dotnet/sdk:8.0",
+  "features": {
+    // https://github.com/devcontainers/features/tree/main/src/dotnet
+    "ghcr.io/devcontainers/features/dotnet:2": {
+      "version": "latest",
+      "dotnetRuntimeVersions": "8.0",
+      "aspNetCoreRuntimeVersions": "8.0",
+      "additionalVersions": "8.0,10.0"
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csdevkit",
+        "esbenp.prettier-vscode",
+        "microsoft-aspire.aspire-vscode"
+      ]
+    }
+  },
+  "remoteEnv": {
+    // https://docs.github.com/en/codespaces/developing-in-a-codespace/persisting-environment-variables-and-temporary-files#for-all-codespaces-for-a-repository
+    // Set .NET tools directory to PATH since not automatically done by SDK image.
+    "PATH": "${containerEnv:PATH}:/root/.dotnet/tools"
+  },
+  "onCreateCommand": "curl -sSL https://aspire.dev/install.sh | bash",
+  "postStartCommand": "dotnet dev-certs https --trust"
+}
