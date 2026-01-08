@@ -22,7 +22,7 @@ jobs:
       - name: Build
         run: dotnet build DbApiBuilderEntityGenerator.sln --configuration Release
       - name: Pack
-        run: dotnet pack src/DbApiBuilderEntityGenerator/DbApiBuilderEntityGenerator.sln --configuration Release --no-build --no-restore --output .
+        run: dotnet pack src/DbApiBuilderEntityGenerator/DbApiBuilderEntityGenerator.csproj --configuration Release --no-build --no-restore --output .
       # Get a short-lived NuGet API key
       - name: NuGet login (OIDC → temp API key)
         uses: NuGet/login@v1
