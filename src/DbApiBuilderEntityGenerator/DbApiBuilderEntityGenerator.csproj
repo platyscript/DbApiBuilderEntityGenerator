@@ -20,7 +20,7 @@
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/platyscript/DbApiBuilderEntityGenerator</RepositoryUrl>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <PackageVersion>1.0.1-alpha</PackageVersion>  
+    <Version>1.0.1-alpha</Version>  
   </PropertyGroup>
 
   <ItemGroup>
@@ -46,4 +46,10 @@
 
     <Message Text="Copied build files" Importance="High" />
   </Target>
+
+  <ItemGroup>
+    <None Include="$(SolutionDir)LICENSE" Pack="true" PackagePath="" />
+    <None Include="$(SolutionDir)README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+
 </Project>
