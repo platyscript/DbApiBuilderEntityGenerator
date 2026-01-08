@@ -4,20 +4,15 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-
-  <PropertyGroup>
-    <Description>.NET Core command-line (CLI) tool to generate the entities configuration file for data-api-builder.
-    </Description>
+    <Nullable>enable</Nullable>    
+    <ToolCommandName>dab-entity-gen</ToolCommandName>
+    <PackAsTool>true</PackAsTool>    
+    <Description>.NET Core command-line (CLI) tool to generate the entities configuration for data-api-builder.</Description>
     <Copyright>Copyright © $([System.DateTime]::Now.ToString(yyyy)) PlatyScript</Copyright>
     <Authors>PlatyScript</Authors>
     <NeutralLanguage>en-US</NeutralLanguage>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <PackageTags>
-      dab, data-api-builder, dataApiBuilder, cosmosdb, nosql, sqlserver, azure-sql, postgresql, pgsql,
-      mysql, mssql, sql, azure, api, graphql, rest, platyscript
-    </PackageTags>
+    <PackageTags>rest graphql api azure sql mssql mysql pgsql postgresql azure-sql sqlserver nosql cosmosdb dataApiBuilder Generation Generator</PackageTags>
     <PackageProjectUrl>https://github.com/platyscript/DbApiBuilderEntityGenerator</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <!-- <PackageIcon>logo.png</PackageIcon> -->
@@ -25,7 +20,7 @@
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/platyscript/DbApiBuilderEntityGenerator</RepositoryUrl>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <PackageVersion>1.0.1-alpha</PackageVersion>
+    <PackageVersion>1.0.1-alpha</PackageVersion>  
   </PropertyGroup>
 
   <ItemGroup>
@@ -33,23 +28,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AssemblyMetadata.Generators" Version="2.1.0" PrivateAssets="All" />
-    <PackageReference Include="MinVer" Version="6.0.0" PrivateAssets="All" />
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="4.1.1" />
+    <PackageReference Include="Serilog.Extensions.Hosting" Version="10.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.1.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <!-- <None Include=".\..\..\logo.png">
-      <Pack>true</Pack>
-      <PackagePath>\</PackagePath>
-      <Visible>false</Visible>
-    </None> -->
-    <None Include=".\..\..\..\README.md">
-      <Pack>true</Pack>
-      <PackagePath>\</PackagePath>
-      <Visible>false</Visible>
-    </None>
-  </ItemGroup>
-</Project>
   <ItemGroup>
     <ExeFiles Include="$(TargetDir)\**\*"/>
   </ItemGroup>
@@ -59,7 +42,7 @@
 
     <Copy
       SourceFiles="@(ExeFiles)"
-      DestinationFolder="../../dab-entity-gen/" />
+      DestinationFolder="../../../dab-entity-gen/" />
 
     <Message Text="Copied build files" Importance="High" />
   </Target>
