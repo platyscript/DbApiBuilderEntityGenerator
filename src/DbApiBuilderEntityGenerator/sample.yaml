@@ -8,10 +8,12 @@ provider: SqlServer
 connectionName: "ConnectionStrings:Generator"
 
 # the user secret identifier, can be shared with .net core project
-userSecretsId:
-  "984ef0cf-2b22-4fd1-876d-e01499da4c1f"
+userSecretsId: "984ef0cf-2b22-4fd1-876d-e01499da4c1f"
 
-  # tables to include or empty to include all
+# the directory to output the configuration. Default is current.
+outputDirectory: .\
+
+# tables to include or empty to include all
 tables:
   - Priority
   - Status
