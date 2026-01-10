@@ -1,0 +1,2021 @@
+{
+  "doc": {
+    "metadata": {
+      "image": [],
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "robots": "index"
+    },
+    "mdx": {
+      "altBody": "",
+      "status": "rdmd"
+    },
+    "api": {
+      "method": "get",
+      "url": "",
+      "auth": "required",
+      "params": [],
+      "results": {
+        "codes": []
+      },
+      "apiSetting": "606079f404910e006b487151"
+    },
+    "swagger": {
+      "path": "/inbound/v2"
+    },
+    "next": {
+      "description": "",
+      "pages": []
+    },
+    "algolia": {
+      "recordCount": 1,
+      "publishPending": false,
+      "updatedAt": "2023-08-30T23:27:01.982Z",
+      "translationFailure": false
+    },
+    "_id": "64efd045b261ab002c4e19cb",
+    "title": "/inbound/v2",
+    "icon": "",
+    "updates": [],
+    "type": "endpoint",
+    "slug": "introspectimportapicollection",
+    "excerpt": "Discover all available endpoints to import data. This endpoint is available in Medallia Experience Cloud 2023 Fall Release as a generally available beta feature.",
+    "body": "",
+    "order": 1,
+    "isReference": true,
+    "deprecated": false,
+    "hidden": false,
+    "sync_unique": "introspectImportAPICollection",
+    "link_url": "",
+    "link_external": false,
+    "previousSlug": "",
+    "slugUpdatedAt": "2023-08-30T17:42:10.220Z",
+    "revision": 4,
+    "category": {
+      "_id": "606079f404910e006b487152",
+      "title": "Import API",
+      "slug": "import-api",
+      "order": 3,
+      "reference": true,
+      "isAPI": true,
+      "project": "605a62398adaf20036f463e2",
+      "version": "605a62398adaf20036f463e7",
+      "createdAt": "2021-03-28T12:43:32.798Z",
+      "__v": 0,
+      "type": "reference",
+      "id": "606079f404910e006b487152"
+    },
+    "createdAt": "2023-08-30T23:27:01.595Z",
+    "updatedAt": "2023-09-07T18:46:56.279Z",
+    "parentDoc": "606079f504910e006b487153",
+    "version": {
+      "pdfStatus": "",
+      "source": "readme",
+      "_id": "605a62398adaf20036f463e7",
+      "version": "1.0",
+      "version_clean": "1.0.0",
+      "codename": "",
+      "is_stable": true,
+      "is_beta": false,
+      "is_hidden": false,
+      "is_deprecated": false,
+      "categories": [
+        "605a62398adaf20036f463e9",
+        "605a62398adaf20036f463e9",
+        "605a62398adaf20036f463ef",
+        "605a66b397c5c9006ea78e92",
+        "605a68f3b644df004fef979a",
+        "605ba8d8b23e2a001eee304c",
+        "605cd3ad3c37a806fd858cc8",
+        "605cdcde70dbfb008072812d",
+        "605d00a433b2ea00584e0680",
+        "605d089d8d65c70052b738f6",
+        "605d08f38cc13000656ad9d5",
+        "605d09234ad5cb007209a2bb",
+        "605d11833c37a806fd862c2a",
+        "605d12d2fa689d00129bd3bc",
+        "605d1654c9d73300372af955",
+        "605d17ae97bea9000f9ee924",
+        "605d1a7293b77f061ac03e0f",
+        "605d1b24f71357082f97c002",
+        "605e00543da3fc011fb53eb0",
+        "605ecdeef30a6a0010911efc",
+        "605ece42860505002af4c21d",
+        "605ece63b7fa0d0016fc9da4",
+        "605ece70b5c297004b10f38f",
+        "605ece8589f06e007f923c11",
+        "605ece8f4572f20023eec7a4",
+        "605eced5b7fa0d0016fc9dca",
+        "605ecef97043150010429237",
+        "605ecf1389f06e007f923d0b",
+        "605ecf841b06fc0071ecc3fe",
+        "60605e01bb2c3700726af1df",
+        "60605e47d3c0a2007b1342d1",
+        "60605ea052b8c60022733120",
+        "60605fc68c49be006dcc1cb8",
+        "6060607fbcedfd005c6930d0",
+        "6060609cb1e5d9005065a952",
+        "606079f404910e006b487152",
+        "6060c63466ca38005b245158",
+        "60665e166c7cd6005afd3e9c",
+        "606e410ca6183400104a9334",
+        "606e41397960f200713177c9",
+        "606e416b276543004f31323b",
+        "6070a8250147d400165ed8b0",
+        "607686f4f10c4d005f1618d7",
+        "607a4cdbb74bf60045865a8d",
+        "60b91cb5249727005f6a28f4",
+        "61035d713f913a0017b10c35",
+        "6349830cf58963081e4e625e",
+        "63d9a0497f835300035ed44a"
+      ],
+      "project": "605a62398adaf20036f463e2",
+      "releaseDate": "2021-03-23T21:48:41.543Z",
+      "createdAt": "2021-03-23T21:48:41.543Z",
+      "__v": 1,
+      "apiRegistries": []
+    },
+    "project": "605a62398adaf20036f463e2",
+    "__v": 1,
+    "lastUpdatedHash": "b2ca9c9599bdbff0934a2c2a7b08a8958713c50a",
+    "reusableContent": [],
+    "isApi": true,
+    "tutorials": [],
+    "id": "64efd045b261ab002c4e19cb"
+  },
+  "hideTOC": false,
+  "loginUrl": "https://dash.readme.com/auth/login/medallia?redirect=%2Fgo%2Fmedallia-enterprise-group%3Fredirect%3Dmedallia-apis",
+  "meta": {
+    "_id": "64efd045b261ab002c4e19cb",
+    "description": "Discover all available endpoints to import data. This endpoint is available in Medallia Experience Cloud 2023 Fall Release as a generally available beta feature.",
+    "hidden": false,
+    "image": [],
+    "keywords": "",
+    "metaTitle": "/inbound/v2",
+    "parent": "606079f504910e006b487153",
+    "robots": "index",
+    "slug": "introspectimportapicollection",
+    "title": "/inbound/v2",
+    "type": "reference"
+  },
+  "oasDefinition": {
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Import API",
+      "version": "2.1.0",
+      "description": "The Medallia Import API enables import of data to Medallia Experience Cloud through a Data Import or Custom Import.",
+      "termsOfService": "https://medallia.com/about/legal/terms/api"
+    },
+    "servers": [
+      {
+        "url": "https://{api-gateway-hostname}",
+        "variables": {
+          "api-gateway-hostname": {
+            "default": "instance-tenant.apis.medallia.com",
+            "description": "The Medallia Experience Cloud hostname used to access Medallia Reporting"
+          }
+        }
+      }
+    ],
+    "paths": {
+      "/inbound/v1/{importer-name}": {
+        "post": {
+          "tags": [
+            "Import"
+          ],
+          "description": "Performs a data import",
+          "operationId": "importDataV1",
+          "parameters": [
+            {
+              "$ref": "#/components/parameters/feed-name"
+            }
+          ],
+          "requestBody": {
+            "description": "The data to be imported",
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      },
+                      "example": {
+                        "transaction_date": "2021-03-23T20:15:37.000Z",
+                        "email": "mary@example.medallia.com"
+                      }
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "additionalProperties": {
+                          "type": "string"
+                        },
+                        "example": {
+                          "transaction_date": "2021-03-23T20:15:37.000Z",
+                          "email": "mary@example.medallia.com"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/xml": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      },
+                      "example": {
+                        "transaction_date": "2021-03-23T20:15:37.000Z",
+                        "email": "mary@example.medallia.com"
+                      }
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "additionalProperties": {
+                          "type": "string"
+                        },
+                        "example": {
+                          "transaction_date": "2021-03-23T20:15:37.000Z",
+                          "email": "mary@example.medallia.com"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "The response to a data import that is processed synchronously",
+              "headers": {
+                "X-RateLimit-Limit-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-day"
+                },
+                "X-RateLimit-Remaining-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-day"
+                },
+                "X-RateLimit-Limit-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-second"
+                },
+                "X-RateLimit-Remaining-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-second"
+                },
+                "X-RateLimit-Limit": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit"
+                },
+                "X-RateLimit-Remaining": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining"
+                },
+                "X-RateLimit-Reset": {
+                  "$ref": "#/components/headers/X-RateLimit-Reset"
+                },
+                "X-Medallia-Rpc-Request-Id": {
+                  "$ref": "#/components/headers/X-Medallia-Rpc-Request-Id"
+                }
+              },
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "required": [
+                      "records",
+                      "duplicates",
+                      "rejects"
+                    ],
+                    "properties": {
+                      "records": {
+                        "type": "integer",
+                        "description": "The number of records processed"
+                      },
+                      "duplicates": {
+                        "type": "integer",
+                        "description": "The number of records found to match an existing record in the system"
+                      },
+                      "rejects": {
+                        "type": "integer",
+                        "description": "The number of records that could not be processed for some reason"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "202": {
+              "description": "The response to a data import that is processed asynchronously",
+              "headers": {
+                "X-RateLimit-Limit-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-day"
+                },
+                "X-RateLimit-Remaining-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-day"
+                },
+                "X-RateLimit-Limit-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-second"
+                },
+                "X-RateLimit-Remaining-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-second"
+                },
+                "X-RateLimit-Limit": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit"
+                },
+                "X-RateLimit-Remaining": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining"
+                },
+                "X-RateLimit-Reset": {
+                  "$ref": "#/components/headers/X-RateLimit-Reset"
+                },
+                "X-Medallia-Rpc-Request-Id": {
+                  "$ref": "#/components/headers/X-Medallia-Rpc-Request-Id"
+                }
+              }
+            },
+            "401": {
+              "description": "Unauthorized"
+            },
+            "403": {
+              "description": "Forbidden"
+            },
+            "412": {
+              "description": "Precondition failed"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "mecOauth": []
+            }
+          ]
+        }
+      },
+      "/inbound/v2": {
+        "get": {
+          "tags": [
+            "Import"
+          ],
+          "description": "Discover all available endpoints to import data. This endpoint is available in Medallia Experience Cloud 2023 Fall Release as a generally available beta feature.",
+          "operationId": "introspectImportAPICollection",
+          "responses": {
+            "200": {
+              "description": "Lists all the available endpoints",
+              "headers": {
+                "X-RateLimit-Limit-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-day"
+                },
+                "X-RateLimit-Remaining-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-day"
+                },
+                "X-RateLimit-Limit-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-second"
+                },
+                "X-RateLimit-Remaining-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-second"
+                },
+                "X-RateLimit-Limit": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit"
+                },
+                "X-RateLimit-Remaining": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining"
+                },
+                "X-RateLimit-Reset": {
+                  "$ref": "#/components/headers/X-RateLimit-Reset"
+                },
+                "X-Medallia-Rpc-Request-Id": {
+                  "$ref": "#/components/headers/X-Medallia-Rpc-Request-Id"
+                }
+              },
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/TruncatedOpenAPIObject"
+                  }
+                },
+                "application/yaml": {
+                  "schema": {
+                    "$ref": "#/components/schemas/TruncatedOpenAPIObject"
+                  }
+                }
+              }
+            },
+            "401": {
+              "description": "Unauthorized"
+            },
+            "403": {
+              "description": "Forbidden"
+            },
+            "404": {
+              "description": "Object not found",
+              "headers": {
+                "X-RateLimit-Limit-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-day"
+                },
+                "X-RateLimit-Remaining-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-day"
+                },
+                "X-RateLimit-Limit-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-second"
+                },
+                "X-RateLimit-Remaining-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-second"
+                },
+                "X-RateLimit-Limit": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit"
+                },
+                "X-RateLimit-Remaining": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining"
+                },
+                "X-RateLimit-Reset": {
+                  "$ref": "#/components/headers/X-RateLimit-Reset"
+                },
+                "X-Medallia-Rpc-Request-Id": {
+                  "$ref": "#/components/headers/X-Medallia-Rpc-Request-Id"
+                }
+              }
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "mecOauth": []
+            }
+          ]
+        }
+      },
+      "/inbound/v2/{importer-name}": {
+        "get": {
+          "tags": [
+            "Import"
+          ],
+          "description": "Inspect an importer to uncover input data requirements.  This endpoint is available in Medallia Experience Cloud 2023 Fall Release as a generally available beta feature.",
+          "operationId": "introspectImportAPIEndpoint",
+          "parameters": [
+            {
+              "$ref": "#/components/parameters/feed-name"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Retrieve the full Open API 3.0.1 spec of an endpoint",
+              "headers": {
+                "X-RateLimit-Limit-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-day"
+                },
+                "X-RateLimit-Remaining-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-day"
+                },
+                "X-RateLimit-Limit-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-second"
+                },
+                "X-RateLimit-Remaining-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-second"
+                },
+                "X-RateLimit-Limit": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit"
+                },
+                "X-RateLimit-Remaining": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining"
+                },
+                "X-RateLimit-Reset": {
+                  "$ref": "#/components/headers/X-RateLimit-Reset"
+                },
+                "X-Medallia-Rpc-Request-Id": {
+                  "$ref": "#/components/headers/X-Medallia-Rpc-Request-Id"
+                }
+              },
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "description": "Content matches OpenAPI Object as per https://swagger.io/specification/"
+                  }
+                },
+                "application/yaml": {
+                  "schema": {
+                    "description": "Content matches OpenAPI Object as per https://swagger.io/specification/"
+                  }
+                }
+              }
+            },
+            "401": {
+              "description": "Unauthorized"
+            },
+            "403": {
+              "description": "Forbidden"
+            },
+            "404": {
+              "description": "Object not found",
+              "headers": {
+                "X-RateLimit-Limit-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-day"
+                },
+                "X-RateLimit-Remaining-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-day"
+                },
+                "X-RateLimit-Limit-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-second"
+                },
+                "X-RateLimit-Remaining-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-second"
+                },
+                "X-RateLimit-Limit": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit"
+                },
+                "X-RateLimit-Remaining": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining"
+                },
+                "X-RateLimit-Reset": {
+                  "$ref": "#/components/headers/X-RateLimit-Reset"
+                },
+                "X-Medallia-Rpc-Request-Id": {
+                  "$ref": "#/components/headers/X-Medallia-Rpc-Request-Id"
+                }
+              }
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "mecOauth": []
+            }
+          ]
+        }
+      },
+      "/inbound/v2/async/{importer-name}": {
+        "post": {
+          "tags": [
+            "Import"
+          ],
+          "description": "Performs an asynchronous data import, returning the ID of the feed file created so processing status can be queried later.  This endpoint is only available in Medallia Experience Cloud 2023 Summer Release as an opt-in feature.  Reach out to your Medallia contact to enable this API feature as part of the Early Adopter Program.",
+          "operationId": "importDataV2",
+          "parameters": [
+            {
+              "$ref": "#/components/parameters/feed-name"
+            }
+          ],
+          "requestBody": {
+            "description": "The data to be imported",
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      },
+                      "example": {
+                        "transaction_date": "2021-03-23T20:15:37.000Z",
+                        "email": "mary@example.medallia.com"
+                      }
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "additionalProperties": {
+                          "type": "string"
+                        },
+                        "example": {
+                          "transaction_date": "2021-03-23T20:15:37.000Z",
+                          "email": "mary@example.medallia.com"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "text/csv": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/xml": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      },
+                      "example": {
+                        "transaction_date": "2021-03-23T20:15:37.000Z",
+                        "email": "mary@example.medallia.com"
+                      }
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "additionalProperties": {
+                          "type": "string"
+                        },
+                        "example": {
+                          "transaction_date": "2021-03-23T20:15:37.000Z",
+                          "email": "mary@example.medallia.com"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "responses": {
+            "202": {
+              "description": "The response to a data import that is processed asynchronously",
+              "headers": {
+                "X-RateLimit-Limit-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-day"
+                },
+                "X-RateLimit-Remaining-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-day"
+                },
+                "X-RateLimit-Limit-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-second"
+                },
+                "X-RateLimit-Remaining-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-second"
+                },
+                "X-RateLimit-Limit": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit"
+                },
+                "X-RateLimit-Remaining": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining"
+                },
+                "X-RateLimit-Reset": {
+                  "$ref": "#/components/headers/X-RateLimit-Reset"
+                },
+                "X-Medallia-Rpc-Request-Id": {
+                  "$ref": "#/components/headers/X-Medallia-Rpc-Request-Id"
+                }
+              },
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/AsyncIngestionResponse"
+                  }
+                }
+              }
+            },
+            "401": {
+              "description": "Unauthorized"
+            },
+            "403": {
+              "description": "Forbidden"
+            },
+            "404": {
+              "description": "Object not found",
+              "headers": {
+                "X-RateLimit-Limit-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-day"
+                },
+                "X-RateLimit-Remaining-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-day"
+                },
+                "X-RateLimit-Limit-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-second"
+                },
+                "X-RateLimit-Remaining-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-second"
+                },
+                "X-RateLimit-Limit": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit"
+                },
+                "X-RateLimit-Remaining": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining"
+                },
+                "X-RateLimit-Reset": {
+                  "$ref": "#/components/headers/X-RateLimit-Reset"
+                },
+                "X-Medallia-Rpc-Request-Id": {
+                  "$ref": "#/components/headers/X-Medallia-Rpc-Request-Id"
+                }
+              },
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/ErrorMessage"
+                  }
+                }
+              }
+            },
+            "405": {
+              "description": "The feed resource configuration is not compatible with this API resource. Please change the configuration of your feed resource.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/ErrorMessage"
+                  }
+                }
+              }
+            },
+            "412": {
+              "description": "Precondition failed"
+            },
+            "413": {
+              "description": "Payload too large"
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "mecOauth": []
+            }
+          ]
+        }
+      },
+      "/inbound/v2/feedfiles/{id}": {
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/feed-file-id"
+          }
+        ],
+        "get": {
+          "tags": [
+            "Feed File"
+          ],
+          "description": "Provides the summary statistics of a feed file import. This endpoint is only available in Medallia Experience Cloud 2023 Summer Release as an opt-in feature.  Reach out to your Medallia contact to enable this API feature as part of the Early Adopter Program.",
+          "operationId": "getSummaryFeedFileResults",
+          "responses": {
+            "200": {
+              "description": "Successfully obtained the feed file statistics",
+              "headers": {
+                "X-RateLimit-Limit-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-day"
+                },
+                "X-RateLimit-Remaining-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-day"
+                },
+                "X-RateLimit-Limit-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-second"
+                },
+                "X-RateLimit-Remaining-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-second"
+                },
+                "X-RateLimit-Limit": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit"
+                },
+                "X-RateLimit-Remaining": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining"
+                },
+                "X-RateLimit-Reset": {
+                  "$ref": "#/components/headers/X-RateLimit-Reset"
+                },
+                "X-Medallia-Rpc-Request-Id": {
+                  "$ref": "#/components/headers/X-Medallia-Rpc-Request-Id"
+                }
+              },
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/FeedFileSummary"
+                  }
+                }
+              }
+            },
+            "401": {
+              "description": "Unauthorized"
+            },
+            "403": {
+              "description": "Forbidden"
+            },
+            "404": {
+              "description": "Object not found.",
+              "headers": {
+                "X-RateLimit-Limit-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-day"
+                },
+                "X-RateLimit-Remaining-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-day"
+                },
+                "X-RateLimit-Limit-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-second"
+                },
+                "X-RateLimit-Remaining-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-second"
+                },
+                "X-RateLimit-Limit": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit"
+                },
+                "X-RateLimit-Remaining": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining"
+                },
+                "X-RateLimit-Reset": {
+                  "$ref": "#/components/headers/X-RateLimit-Reset"
+                },
+                "X-Medallia-Rpc-Request-Id": {
+                  "$ref": "#/components/headers/X-Medallia-Rpc-Request-Id"
+                }
+              },
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/ErrorMessage"
+                  }
+                }
+              }
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "mecOauth": []
+            }
+          ]
+        }
+      },
+      "/inbound/v2/feedfiles/{id}/detailed-results": {
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/feed-file-id"
+          }
+        ],
+        "get": {
+          "description": "Provides the detailed processing results of a Feed File. This endpoint is only available in Medallia Experience Cloud 2023 Summer Release as an opt-in feature.  Reach out to your Medallia contact to enable this API feature as part of the Early Adopter Program.",
+          "tags": [
+            "Feed File"
+          ],
+          "operationId": "getDetailedFeedFileResults",
+          "responses": {
+            "200": {
+              "description": "Successfully obtained the detailed results.",
+              "headers": {
+                "X-RateLimit-Limit-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-day"
+                },
+                "X-RateLimit-Remaining-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-day"
+                },
+                "X-RateLimit-Limit-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-second"
+                },
+                "X-RateLimit-Remaining-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-second"
+                },
+                "X-RateLimit-Limit": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit"
+                },
+                "X-RateLimit-Remaining": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining"
+                },
+                "X-RateLimit-Reset": {
+                  "$ref": "#/components/headers/X-RateLimit-Reset"
+                },
+                "X-Medallia-Rpc-Request-Id": {
+                  "$ref": "#/components/headers/X-Medallia-Rpc-Request-Id"
+                }
+              },
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/DetailedResults"
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "Failed to obtain the detailed results.",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/ErrorMessage"
+                  }
+                }
+              }
+            },
+            "401": {
+              "description": "Unauthorized"
+            },
+            "403": {
+              "description": "Forbidden"
+            },
+            "404": {
+              "description": "Object not found.",
+              "headers": {
+                "X-RateLimit-Limit-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-day"
+                },
+                "X-RateLimit-Remaining-day": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-day"
+                },
+                "X-RateLimit-Limit-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit-second"
+                },
+                "X-RateLimit-Remaining-second": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining-second"
+                },
+                "X-RateLimit-Limit": {
+                  "$ref": "#/components/headers/X-RateLimit-Limit"
+                },
+                "X-RateLimit-Remaining": {
+                  "$ref": "#/components/headers/X-RateLimit-Remaining"
+                },
+                "X-RateLimit-Reset": {
+                  "$ref": "#/components/headers/X-RateLimit-Reset"
+                },
+                "X-Medallia-Rpc-Request-Id": {
+                  "$ref": "#/components/headers/X-Medallia-Rpc-Request-Id"
+                }
+              },
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/ErrorMessage"
+                  }
+                }
+              }
+            },
+            "500": {
+              "description": "Internal server error"
+            }
+          },
+          "security": [
+            {
+              "mecOauth": []
+            }
+          ]
+        }
+      }
+    },
+    "components": {
+      "parameters": {
+        "feed-name": {
+          "name": "importer-name",
+          "in": "path",
+          "description": "The name of the importer",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "format": "identifier"
+          }
+        },
+        "feed-file-id": {
+          "name": "id",
+          "in": "path",
+          "description": "The identifier which represents an asynchronous data import known as a feed file",
+          "required": true,
+          "schema": {
+            "type": "string",
+            "format": "uuid"
+          }
+        }
+      },
+      "headers": {
+        "X-RateLimit-Limit-day": {
+          "description": "The number of requests allowed in total in a 24-hour period. Deprecated as of Sept. 2022 in favor of X-RateLimit-Limit.",
+          "schema": {
+            "type": "integer"
+          },
+          "example": 10000,
+          "deprecated": true
+        },
+        "X-RateLimit-Remaining-day": {
+          "description": "The number of requests available to make in a 24-hour period. Deprecated as of Sept. 2022 in favor of X-RateLimit-Remaining.",
+          "schema": {
+            "type": "integer"
+          },
+          "example": 10000,
+          "deprecated": true
+        },
+        "X-RateLimit-Limit-second": {
+          "description": "The number of requests allowed in total in a 1-second period. Deprecated as of Sept. 2022 in favor of X-RateLimit-Limit.",
+          "schema": {
+            "type": "integer"
+          },
+          "example": 10,
+          "deprecated": true
+        },
+        "X-RateLimit-Remaining-second": {
+          "description": "The number of requests available to make in a 1-second period. Deprecated as of Sept. 2022 in favor of X-RateLimit-Remaining.",
+          "schema": {
+            "type": "integer"
+          },
+          "example": 10,
+          "deprecated": true
+        },
+        "X-RateLimit-Limit": {
+          "description": "Indicates the request quota closest to reaching its limit amongst all available quotas. Follows the semantics of [IETF draft-polli-ratelimit-headers](https://datatracker.ietf.org/doc/html/draft-polli-ratelimit-headers).",
+          "schema": {
+            "type": "string"
+          },
+          "example": "10, 10;w=1, 100;w=86400"
+        },
+        "X-RateLimit-Remaining": {
+          "description": "Indicates the number of requests remaining in the quota that is closest to expiring (as indicated by `X-RateLimit-Limit`). Follows the semantics of [IETF draft-polli-ratelimit-headers](https://datatracker.ietf.org/doc/html/draft-polli-ratelimit-headers).",
+          "schema": {
+            "type": "integer"
+          },
+          "example": 10
+        },
+        "X-RateLimit-Reset": {
+          "description": "Indicates the number of seconds remaining until the quota resets.  Follows the semantics of [IETF draft-polli-ratelimit-headers](https://datatracker.ietf.org/doc/html/draft-polli-ratelimit-headers).",
+          "schema": {
+            "type": "integer"
+          },
+          "example": 10
+        },
+        "X-Medallia-Rpc-Request-Id": {
+          "description": "The request ID, used by Medallia support for troubleshooting",
+          "schema": {
+            "type": "string",
+            "format": "identifier"
+          },
+          "example": "94615edd-d9d0-4921-8b3e-60615b3d3431"
+        }
+      },
+      "schemas": {
+        "TruncatedOpenAPIObject": {
+          "type": "object",
+          "description": "A truncated Open API object to list the basic information of all available Import API endpoints",
+          "required": [
+            "openapi",
+            "info",
+            "servers",
+            "paths"
+          ],
+          "properties": {
+            "openapi": {
+              "type": "string"
+            },
+            "info": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "description": "Hardcoded to Import API",
+                  "type": "string"
+                },
+                "version": {
+                  "type": "string"
+                }
+              }
+            },
+            "servers": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string",
+                    "format": "url"
+                  }
+                }
+              }
+            },
+            "paths": {
+              "type": "object",
+              "additionalProperties": {
+                "description": "Describes an available Import API path to post data to",
+                "type": "object",
+                "additionalProperties": {
+                  "description": "Displays the available methods to interact with that API path",
+                  "type": "object",
+                  "properties": {
+                    "summary": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "example": {
+            "openapi": "3.0.1",
+            "info": {
+              "title": "Import API",
+              "version": "1.0.0"
+            },
+            "servers": [
+              {
+                "url": "https://example.apis.qa.den.medallia.com"
+              }
+            ],
+            "paths": {
+              "/inbound/v2/async/active_b2b_onboarding_invitation": {
+                "post": {
+                  "summary": "active_b2b_onboarding_invitation",
+                  "description": "This web feed is for the client to send Medallia invitation data for the B2B Onboarding program ON ACTIVE."
+                }
+              },
+              "/inbound/v2/async/active_b2b_org": {
+                "post": {
+                  "summary": "active_b2b_org",
+                  "description": "This web feed is for the client to send Medallia org hierarchy data for the B2B program WITH ACTIVE"
+                }
+              }
+            }
+          }
+        },
+        "AsyncIngestionResponse": {
+          "type": "object",
+          "description": "Confirmation that the asynchronous file processing request has been queued for processing.",
+          "required": [
+            "feed_file_id"
+          ],
+          "properties": {
+            "feed_file_id": {
+              "description": "Feed file identifier.",
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        },
+        "FeedFileSummary": {
+          "description": "Summary stats for a feed file",
+          "type": "object",
+          "required": [
+            "id",
+            "status"
+          ],
+          "properties": {
+            "id": {
+              "description": "Feed file identifier.",
+              "type": "string",
+              "format": "uuid"
+            },
+            "status": {
+              "description": "The current feed file status.",
+              "type": "string",
+              "enum": [
+                "QUEUED",
+                "PROCESSING",
+                "CANCELLED",
+                "ERROR",
+                "COMPLETED",
+                "COMPLETED_PENDING_RESULTS",
+                "COMPLETED_RESULTS_READY",
+                "COMPLETED_RESULTS_UNAVAILABLE"
+              ]
+            },
+            "stats": {
+              "description": "Information about a processed feed file",
+              "type": "object",
+              "required": [
+                "creation_date",
+                "processing_mode"
+              ],
+              "properties": {
+                "records": {
+                  "description": "Aggregate record stats",
+                  "type": "object",
+                  "required": [
+                    "input_count"
+                  ],
+                  "properties": {
+                    "input_count": {
+                      "description": "Total input record count",
+                      "type": "integer"
+                    },
+                    "success_count": {
+                      "description": "Success record count",
+                      "type": "integer"
+                    },
+                    "discarded_count": {
+                      "description": "Discarded record count",
+                      "type": "integer"
+                    },
+                    "duplicated_count": {
+                      "description": "Duplicate record count",
+                      "type": "integer"
+                    }
+                  }
+                },
+                "creation_date": {
+                  "description": "Job creation time (if available)",
+                  "type": "string",
+                  "format": "date-time"
+                },
+                "processing_start_date": {
+                  "description": "Processing start time (if available)",
+                  "type": "string",
+                  "format": "date-time"
+                },
+                "processing_end_date": {
+                  "description": "Processing end time (if available)",
+                  "type": "string",
+                  "format": "date-time"
+                },
+                "processing_mode": {
+                  "description": "The feed file processing mode used for the job",
+                  "type": "string",
+                  "enum": [
+                    "PRETEND",
+                    "ACTIVE"
+                  ]
+                },
+                "processing_error_description": {
+                  "description": "Processing error description. If available",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "DetailedResults": {
+          "type": "object",
+          "description": "Detailed results of a processed FeedFile.",
+          "properties": {
+            "processing_results": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/ProcessingResult"
+              }
+            },
+            "input_to_field_mappings": {
+              "type": "object",
+              "description": "The fields that the input columns are being mapped to.",
+              "additionalProperties": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "processing_error_description": {
+              "description": "Processing error description. If available",
+              "type": "string"
+            }
+          }
+        },
+        "ProcessingResult": {
+          "type": "object",
+          "description": "Processing results of an entity type specified in the importer schema",
+          "required": [
+            "entity_name"
+          ],
+          "properties": {
+            "entity_name": {
+              "type": "string",
+              "description": "Type of entity imported such as record, unit, account, etc.",
+              "example": "record"
+            },
+            "successful_results": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/SuccessfulProcessedEntryResult"
+              }
+            },
+            "discarded_results": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/DiscardedResult"
+              }
+            }
+          }
+        },
+        "SuccessfulProcessedEntryResult": {
+          "type": "object",
+          "description": "The result of a successfully processed entry.",
+          "required": [
+            "input_position",
+            "result",
+            "has_duplicate_record_info",
+            "field_values"
+          ],
+          "properties": {
+            "input_position": {
+              "type": "integer",
+              "description": "The position of the record in the input array of the import request.",
+              "example": 1
+            },
+            "result": {
+              "type": "string",
+              "description": "The summary result.",
+              "example": "Selected for sampling"
+            },
+            "has_duplicate_record_info": {
+              "type": "boolean",
+              "description": "Denotes if an entity is updated and at least one field on the entity contains duplicate information provided in the import request"
+            },
+            "field_values": {
+              "type": "object",
+              "additionalProperties": {
+                "$ref": "#/components/schemas/FieldValue"
+              }
+            }
+          }
+        },
+        "FieldValue": {
+          "type": "object",
+          "description": "The detailed changes for a field value set or updated from the input",
+          "required": [
+            "current_content",
+            "value_modified",
+            "dup_checking"
+          ],
+          "properties": {
+            "modified_content": {
+              "type": "string",
+              "description": "When a field value is updated, this field contains the content that was modified before the import processing"
+            },
+            "current_content": {
+              "type": "string",
+              "description": "The current value of the field after the import processing"
+            },
+            "value_modified": {
+              "type": "boolean",
+              "description": "True if the value was modified"
+            },
+            "dup_checking": {
+              "type": "boolean",
+              "description": "True if the field is being used as part of a unique index"
+            }
+          }
+        },
+        "DiscardedResult": {
+          "type": "object",
+          "description": "The result of a discarded entry",
+          "required": [
+            "input_position",
+            "input_values",
+            "issues"
+          ],
+          "properties": {
+            "input_position": {
+              "type": "integer",
+              "description": "The position of the record in the input array of the import request",
+              "example": 1
+            },
+            "input_values": {
+              "type": "object",
+              "description": "The raw input of the values that were provided in the import request",
+              "additionalProperties": {
+                "type": "string"
+              },
+              "example": {
+                "transaction_date": "2021-03-23T20:15:37.000Z",
+                "email": "mary@example.medallia.com"
+              }
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/DiscardedResultIssue"
+              }
+            }
+          }
+        },
+        "DiscardedResultIssue": {
+          "type": "object",
+          "required": [
+            "consequence",
+            "explanation",
+            "detail",
+            "cause"
+          ],
+          "properties": {
+            "consequence": {
+              "type": "string",
+              "description": "The consequence of the issue.",
+              "example": "Record discarded"
+            },
+            "explanation": {
+              "type": "string",
+              "description": "The explanation of the issue.",
+              "example": "missing required value"
+            },
+            "detail": {
+              "type": "string",
+              "description": "The details of the issue.",
+              "example": "First name (e_firstname)"
+            },
+            "cause": {
+              "type": "string",
+              "description": "The description of the issue cause.",
+              "example": "Issues associated with e_firstname ('First name')"
+            }
+          }
+        },
+        "ErrorMessage": {
+          "type": "object",
+          "description": "The representation of an error message.",
+          "required": [
+            "error_type",
+            "message"
+          ],
+          "properties": {
+            "error_type": {
+              "type": "string",
+              "description": "The type of the error.",
+              "example": "not_found"
+            },
+            "message": {
+              "type": "string",
+              "description": "The error message.",
+              "example": "There is no resource named test_webfeed"
+            }
+          }
+        }
+      },
+      "securitySchemes": {
+        "mecOauth": {
+          "type": "oauth2",
+          "flows": {
+            "clientCredentials": {
+              "tokenUrl": "https://{reporting-hostname}/oauth/{company}/token",
+              "scopes": {}
+            }
+          }
+        }
+      }
+    },
+    "security": [
+      {
+        "mecOauth": []
+      }
+    ],
+    "x-readme": {
+      "explorer-enabled": true,
+      "proxy-enabled": true
+    },
+    "_id": "606079f404910e006b487151"
+  },
+  "oasPublicUrl": "@medallia-apis/v1.0#ks50we18llyd9wpj",
+  "oauth": false,
+  "rdmd": {
+    "baseUrl": "/medallia-apis",
+    "body": "",
+    "dehydrated": {
+      "body": "",
+      "toc": ""
+    },
+    "mdx": false,
+    "opts": {
+      "alwaysThrow": false,
+      "compatibilityMode": false,
+      "copyButtons": true,
+      "correctnewlines": false,
+      "markdownOptions": {
+        "fences": true,
+        "commonmark": true,
+        "gfm": true,
+        "ruleSpaces": false,
+        "listItemIndent": "1",
+        "spacedTable": true,
+        "paddedTable": true
+      },
+      "normalize": true,
+      "lazyImages": true,
+      "reusableContent": {
+        "tags": {}
+      },
+      "safeMode": false,
+      "settings": {
+        "position": true
+      },
+      "theme": "light",
+      "opts": {
+        "customBlocks": {}
+      },
+      "baseUrl": "/medallia-apis",
+      "terms": [
+        {
+          "_id": "605d1ba8a1f1650022a8959a",
+          "term": "Social media",
+          "definition": "solicits and manages feedback from social media sites."
+        },
+        {
+          "_id": "605d1c0d4c96680031bc6119",
+          "term": "CX",
+          "definition": "Customer Experience"
+        },
+        {
+          "_id": "605d1c1853bbff004e2f5bdc",
+          "term": "EX",
+          "definition": "Employee Experience"
+        },
+        {
+          "_id": "605d1c1e8a6ded005d981bb8",
+          "term": "OCEM",
+          "definition": "Operational Customer Experience Management"
+        },
+        {
+          "_id": "605d1c29a4bacc00408a20d6",
+          "term": "VoC",
+          "definition": "Voice of the Customer"
+        },
+        {
+          "_id": "605d1c2f01db370016cdbf5a",
+          "term": "VoE",
+          "definition": "Voice of the Employee"
+        },
+        {
+          "_id": "605d1c3501db370016cdbf76",
+          "term": "NPS",
+          "definition": "Net Promoter Score"
+        },
+        {
+          "_id": "605d1c3cc4e7de0046d23f93",
+          "term": "ML",
+          "definition": "Machine Learning"
+        },
+        {
+          "_id": "605d1c45a71c32004b0c6729",
+          "term": "NLP",
+          "definition": "Natural Language Processing"
+        },
+        {
+          "_id": "605d1c4ca51ed10060c6da37",
+          "term": "OSAT",
+          "definition": "Overall Satisfaction"
+        },
+        {
+          "_id": "605d1c57101c39000f61b984",
+          "term": "CSAT",
+          "definition": "Customer Satisfaction"
+        },
+        {
+          "_id": "605d1c5f437273000fe1cb34",
+          "term": "BPP",
+          "definition": "Best Practice Packages: pre-configured MEC programs for specific verticals/lines of business"
+        },
+        {
+          "_id": "605d1c67b0fb8f0079fc0b29",
+          "term": "QA",
+          "definition": "Quality Assurance: as it pertains to contact centers, monitoring customer interactions to identify issues, training opportunities, standardize coaching, improve CX"
+        },
+        {
+          "_id": "605d1c6da71c32004b0c69e5",
+          "term": "TA",
+          "definition": "Text Analytics: Medallia's data analytics engine to uncover trends and sentiment from unstructured feedback"
+        },
+        {
+          "_id": "605d1c735c3e8b0052702188",
+          "term": "MEC",
+          "definition": "Medallia Experience Cloud"
+        },
+        {
+          "_id": "64147b431378390026dd9754",
+          "term": "Feedback fields",
+          "definition": "Also known as Q-fields. Represent information gathered from the survey taker, or information about individuals providing feedback. They can also be the information used to dynamically control a survey while the survey taker is taking the survey."
+        },
+        {
+          "_id": "64147c6e2b7e5e0d45f7a276",
+          "term": "System fields",
+          "definition": "Also known as A-fields. Generated by Medallia Experience Cloud, they contain information about an event or the survey taker's relationship with the survey itself, such as the timestamp when respondents completed the survey or when they opened the invitation email. Some System fields also record and calculate specific, internal information from different Medallia products"
+        },
+        {
+          "_id": "64147c88c988510052de9bb4",
+          "term": "Formula fields",
+          "definition": "Also known as K-fields. Build calculations within each feedback response. K-fields can operate on data stored in Q-fields, E-fields, A-fields, other K-fields, organizational hierarchies, and Lookup tables. For example, a company may have three different programs with different Likelihood to Recommend (LTR) questions for each program and wants to see these three questions rolled together into a single LTR metric in Reports and Exports. This can be accomplished by creating a K-field that returns the appropriate LTR Q-field for each survey program. This K-field can then be added to Reporting and Exports."
+        },
+        {
+          "_id": "64147c92fd03e010c157dfb6",
+          "term": "Metadata fields",
+          "definition": "Also known as M-fields. Exist temporarily while a survey is being taken and are then discarded. They represent information (metadata) about the survey taker that is taking the survey, such as the kind of device they are using, and about the actions they have taken, such as the starting time and the number of pages submitted so far."
+        },
+        {
+          "_id": "64147c9c3dc959005f30477f",
+          "term": "Event fields",
+          "definition": "Also known as E-fields. Describe either the actual contact episode or event or track various aspects of the feedback record as it moves through Experience Cloud."
+        },
+        {
+          "_id": "64147ca5698db21254345ef7",
+          "term": "Importing",
+          "definition": "The process of collecting external data and bringing it into Medallia Experience Cloud."
+        },
+        {
+          "_id": "64147cc5eae86c0073ba0553",
+          "term": "R-fields",
+          "definition": "Calculate aggregate scores across feedback records. R-fields look at all feedback records (unless otherwise indicated in the calculation) instead of looking at individual ones."
+        },
+        {
+          "_id": "64147ce53d57940073403d52",
+          "term": "Exporting",
+          "definition": "The process of collecting Medallia Experience Cloud data and either sending it to external systems or making it available for download."
+        },
+        {
+          "_id": "64147d00fd03e010c157e5a4",
+          "term": "Inviting",
+          "definition": "The process of creating an invitation for a respondent to take a survey. The process begins soon after Sampling identifies respondents to receive invitations."
+        },
+        {
+          "_id": "64147f33d0f3f70c85b399a3",
+          "term": "Unit group",
+          "definition": "Classifies a unit's place in the company; examples include sales district, territory, line of business, geographical region, time zone, or managerial level. Users can filter and analyze feedback data along these organizational lines (for example, to find the month-over-month average scores for stores of a particular region)."
+        },
+        {
+          "_id": "64147fb960e45f0c819f1347",
+          "term": "System report",
+          "definition": "Previously known as  Standard report. These are minimally customizable reports and report modules intended to be used as-is."
+        },
+        {
+          "_id": "64148049fca7ff0c34a22529",
+          "term": "User",
+          "definition": "Provides access to Medallia Experience Cloud, and controls what data users can see. Every person that logs in to Experience Cloud needs their own personal user account. Every user account belongs to one or more roles that define feature and administrative permissions for a set of users."
+        },
+        {
+          "_id": "6414809889986e08fd28a9e9",
+          "term": "Respondent",
+          "definition": "Alternative term form of customer; use this when for situations where the person providing feedback is not necessarily a customer of the company"
+        },
+        {
+          "_id": "641480d989986e08fd28aee8",
+          "term": "Package",
+          "definition": "Also known as App. A set of configuration entities that you can add to Medallia Experience Cloud, reducing the time required to launch a program or feature."
+        },
+        {
+          "_id": "6414810d39a4380c21f095d7",
+          "term": "Alerts",
+          "definition": "Follow-up workflows associated with responses when the respondent's answers meet some condition, such as giving a low score or complaining about an over-due order. These actionable events start the alert workflow, which then proceeds through one or more states until the issue is resolved. Once the issue is closed, companies can use the Closed Loop Feedback system to capture additional information and improve the customer experience."
+        },
+        {
+          "_id": "6414815c4c8006003421d66d",
+          "term": "Org sync",
+          "definition": "Maps a Medallia Experience Cloud program to a company organizational structure and hierarchies (updating with ongoing changes) to define permissions by role and individual."
+        },
+        {
+          "_id": "64148177c8aca1005323f787",
+          "term": "Company",
+          "definition": "A Medallia customer who has users accessing Medallia Experience Cloud."
+        },
+        {
+          "_id": "641481a7fb040c0dca0e7089",
+          "term": "Custom modules",
+          "definition": "Also known as Custom reports. They define charts or tables using AA2, an XML-based framework created by Medallia."
+        },
+        {
+          "_id": "6414820e9976730d77b3c46b",
+          "term": "Roles",
+          "definition": "A set of permissions defining access to reports and administrative abilities in Medallia Experience Cloud. Roles do not determine access to Experience Cloud itself or to data, both of which are controlled by Users. \nAdministrative permissions control a role's administrative access to Experience Cloud. Reporting permissions control which reports a role can see in Medallia Web and Mobile reports and determine what users with that role can do in those reports."
+        },
+        {
+          "_id": "6414824c6a665f0d1ee70d2f",
+          "term": "Permission",
+          "definition": "Also known as Capability. A privilege assigned to a role that allows users of that role to view or do a particular action."
+        },
+        {
+          "_id": "641482e05ec60214e9c5bac9",
+          "term": "Sampling",
+          "definition": "The process of filtering raw invitations to identify respondents who will be sent invitations to personalized surveys. Sampling occurs after an importer collects the raw invitation data, and before a program causes the invitations to be sent."
+        },
+        {
+          "_id": "641482ece5bcb80d0373da4d",
+          "term": "Social media",
+          "definition": "Solicits and manages feedback from social media sites."
+        },
+        {
+          "_id": "6414830201f9110e35140fe6",
+          "term": "User accounts",
+          "definition": "See Users."
+        },
+        {
+          "_id": "641483702bbcc2004a1d7bd7",
+          "term": "Administrator",
+          "definition": "A user with administrative permissions who can access Medallia Admin Suite or Setup."
+        },
+        {
+          "_id": "6414839db3e46300663516eb",
+          "term": "Customer",
+          "definition": "A customer of the company; a person who fills out a survey and interacts with a Unit."
+        },
+        {
+          "_id": "641483aada9d5c00739761c3",
+          "term": "Unit",
+          "definition": "The part of a company with which individuals interact; examples include front-line representatives, call center agents, employees, physical locations (stores, hotels), or websites.  Units are the lowest common node in the organization."
+        },
+        {
+          "_id": "641483f975db220c730a1550",
+          "term": "Instance",
+          "definition": "A specific (company) deployment. Users typically access a single instance, though a company may have multiple instances on Medallia Experience Cloud."
+        },
+        {
+          "_id": "6414846164981c0b94e1b04d",
+          "term": "Text Analytics",
+          "definition": "The process of deriving meaningful insights from unstructured text feedback. This feedback is an essential resource for discovering and prioritizing potential improvements to the customer experience."
+        }
+      ],
+      "variables": {
+        "user": {},
+        "defaults": [
+          {
+            "source": "server",
+            "_id": "62e95b5748eed800139198ec",
+            "name": "conversations-api-gateway-hostname",
+            "default": "conversations.sc4.medallia.com",
+            "apiSetting": "61035cfaf45dafcfc5752d1a",
+            "type": ""
+          },
+          {
+            "source": "server",
+            "_id": "62e95b5748eed800139198eb",
+            "name": "adapter-api-gateway-hostname",
+            "default": "adapter-gateway.example.com",
+            "apiSetting": "61035cfaf45dafcfc5752d1a",
+            "type": ""
+          },
+          {
+            "source": "security",
+            "_id": "62e95b5748eed800139198ea",
+            "name": "conversationsOauth",
+            "type": "oauth2",
+            "apiSetting": "61035cfaf45dafcfc5752d1a"
+          },
+          {
+            "source": "server",
+            "_id": "67069881074b3000388f9652",
+            "name": "api-gateway-hostname",
+            "default": "instance-tenant.apis.medallia.com",
+            "apiSetting": "605ecf841b06fc0071ecc3fd",
+            "type": ""
+          },
+          {
+            "source": "security",
+            "_id": "67069881074b3000388f9651",
+            "name": "mecOauth",
+            "type": "oauth2",
+            "apiSetting": "605ecf841b06fc0071ecc3fd"
+          }
+        ]
+      }
+    },
+    "terms": [
+      {
+        "_id": "605d1ba8a1f1650022a8959a",
+        "term": "Social media",
+        "definition": "solicits and manages feedback from social media sites."
+      },
+      {
+        "_id": "605d1c0d4c96680031bc6119",
+        "term": "CX",
+        "definition": "Customer Experience"
+      },
+      {
+        "_id": "605d1c1853bbff004e2f5bdc",
+        "term": "EX",
+        "definition": "Employee Experience"
+      },
+      {
+        "_id": "605d1c1e8a6ded005d981bb8",
+        "term": "OCEM",
+        "definition": "Operational Customer Experience Management"
+      },
+      {
+        "_id": "605d1c29a4bacc00408a20d6",
+        "term": "VoC",
+        "definition": "Voice of the Customer"
+      },
+      {
+        "_id": "605d1c2f01db370016cdbf5a",
+        "term": "VoE",
+        "definition": "Voice of the Employee"
+      },
+      {
+        "_id": "605d1c3501db370016cdbf76",
+        "term": "NPS",
+        "definition": "Net Promoter Score"
+      },
+      {
+        "_id": "605d1c3cc4e7de0046d23f93",
+        "term": "ML",
+        "definition": "Machine Learning"
+      },
+      {
+        "_id": "605d1c45a71c32004b0c6729",
+        "term": "NLP",
+        "definition": "Natural Language Processing"
+      },
+      {
+        "_id": "605d1c4ca51ed10060c6da37",
+        "term": "OSAT",
+        "definition": "Overall Satisfaction"
+      },
+      {
+        "_id": "605d1c57101c39000f61b984",
+        "term": "CSAT",
+        "definition": "Customer Satisfaction"
+      },
+      {
+        "_id": "605d1c5f437273000fe1cb34",
+        "term": "BPP",
+        "definition": "Best Practice Packages: pre-configured MEC programs for specific verticals/lines of business"
+      },
+      {
+        "_id": "605d1c67b0fb8f0079fc0b29",
+        "term": "QA",
+        "definition": "Quality Assurance: as it pertains to contact centers, monitoring customer interactions to identify issues, training opportunities, standardize coaching, improve CX"
+      },
+      {
+        "_id": "605d1c6da71c32004b0c69e5",
+        "term": "TA",
+        "definition": "Text Analytics: Medallia's data analytics engine to uncover trends and sentiment from unstructured feedback"
+      },
+      {
+        "_id": "605d1c735c3e8b0052702188",
+        "term": "MEC",
+        "definition": "Medallia Experience Cloud"
+      },
+      {
+        "_id": "64147b431378390026dd9754",
+        "term": "Feedback fields",
+        "definition": "Also known as Q-fields. Represent information gathered from the survey taker, or information about individuals providing feedback. They can also be the information used to dynamically control a survey while the survey taker is taking the survey."
+      },
+      {
+        "_id": "64147c6e2b7e5e0d45f7a276",
+        "term": "System fields",
+        "definition": "Also known as A-fields. Generated by Medallia Experience Cloud, they contain information about an event or the survey taker's relationship with the survey itself, such as the timestamp when respondents completed the survey or when they opened the invitation email. Some System fields also record and calculate specific, internal information from different Medallia products"
+      },
+      {
+        "_id": "64147c88c988510052de9bb4",
+        "term": "Formula fields",
+        "definition": "Also known as K-fields. Build calculations within each feedback response. K-fields can operate on data stored in Q-fields, E-fields, A-fields, other K-fields, organizational hierarchies, and Lookup tables. For example, a company may have three different programs with different Likelihood to Recommend (LTR) questions for each program and wants to see these three questions rolled together into a single LTR metric in Reports and Exports. This can be accomplished by creating a K-field that returns the appropriate LTR Q-field for each survey program. This K-field can then be added to Reporting and Exports."
+      },
+      {
+        "_id": "64147c92fd03e010c157dfb6",
+        "term": "Metadata fields",
+        "definition": "Also known as M-fields. Exist temporarily while a survey is being taken and are then discarded. They represent information (metadata) about the survey taker that is taking the survey, such as the kind of device they are using, and about the actions they have taken, such as the starting time and the number of pages submitted so far."
+      },
+      {
+        "_id": "64147c9c3dc959005f30477f",
+        "term": "Event fields",
+        "definition": "Also known as E-fields. Describe either the actual contact episode or event or track various aspects of the feedback record as it moves through Experience Cloud."
+      },
+      {
+        "_id": "64147ca5698db21254345ef7",
+        "term": "Importing",
+        "definition": "The process of collecting external data and bringing it into Medallia Experience Cloud."
+      },
+      {
+        "_id": "64147cc5eae86c0073ba0553",
+        "term": "R-fields",
+        "definition": "Calculate aggregate scores across feedback records. R-fields look at all feedback records (unless otherwise indicated in the calculation) instead of looking at individual ones."
+      },
+      {
+        "_id": "64147ce53d57940073403d52",
+        "term": "Exporting",
+        "definition": "The process of collecting Medallia Experience Cloud data and either sending it to external systems or making it available for download."
+      },
+      {
+        "_id": "64147d00fd03e010c157e5a4",
+        "term": "Inviting",
+        "definition": "The process of creating an invitation for a respondent to take a survey. The process begins soon after Sampling identifies respondents to receive invitations."
+      },
+      {
+        "_id": "64147f33d0f3f70c85b399a3",
+        "term": "Unit group",
+        "definition": "Classifies a unit's place in the company; examples include sales district, territory, line of business, geographical region, time zone, or managerial level. Users can filter and analyze feedback data along these organizational lines (for example, to find the month-over-month average scores for stores of a particular region)."
+      },
+      {
+        "_id": "64147fb960e45f0c819f1347",
+        "term": "System report",
+        "definition": "Previously known as  Standard report. These are minimally customizable reports and report modules intended to be used as-is."
+      },
+      {
+        "_id": "64148049fca7ff0c34a22529",
+        "term": "User",
+        "definition": "Provides access to Medallia Experience Cloud, and controls what data users can see. Every person that logs in to Experience Cloud needs their own personal user account. Every user account belongs to one or more roles that define feature and administrative permissions for a set of users."
+      },
+      {
+        "_id": "6414809889986e08fd28a9e9",
+        "term": "Respondent",
+        "definition": "Alternative term form of customer; use this when for situations where the person providing feedback is not necessarily a customer of the company"
+      },
+      {
+        "_id": "641480d989986e08fd28aee8",
+        "term": "Package",
+        "definition": "Also known as App. A set of configuration entities that you can add to Medallia Experience Cloud, reducing the time required to launch a program or feature."
+      },
+      {
+        "_id": "6414810d39a4380c21f095d7",
+        "term": "Alerts",
+        "definition": "Follow-up workflows associated with responses when the respondent's answers meet some condition, such as giving a low score or complaining about an over-due order. These actionable events start the alert workflow, which then proceeds through one or more states until the issue is resolved. Once the issue is closed, companies can use the Closed Loop Feedback system to capture additional information and improve the customer experience."
+      },
+      {
+        "_id": "6414815c4c8006003421d66d",
+        "term": "Org sync",
+        "definition": "Maps a Medallia Experience Cloud program to a company organizational structure and hierarchies (updating with ongoing changes) to define permissions by role and individual."
+      },
+      {
+        "_id": "64148177c8aca1005323f787",
+        "term": "Company",
+        "definition": "A Medallia customer who has users accessing Medallia Experience Cloud."
+      },
+      {
+        "_id": "641481a7fb040c0dca0e7089",
+        "term": "Custom modules",
+        "definition": "Also known as Custom reports. They define charts or tables using AA2, an XML-based framework created by Medallia."
+      },
+      {
+        "_id": "6414820e9976730d77b3c46b",
+        "term": "Roles",
+        "definition": "A set of permissions defining access to reports and administrative abilities in Medallia Experience Cloud. Roles do not determine access to Experience Cloud itself or to data, both of which are controlled by Users. \nAdministrative permissions control a role's administrative access to Experience Cloud. Reporting permissions control which reports a role can see in Medallia Web and Mobile reports and determine what users with that role can do in those reports."
+      },
+      {
+        "_id": "6414824c6a665f0d1ee70d2f",
+        "term": "Permission",
+        "definition": "Also known as Capability. A privilege assigned to a role that allows users of that role to view or do a particular action."
+      },
+      {
+        "_id": "641482e05ec60214e9c5bac9",
+        "term": "Sampling",
+        "definition": "The process of filtering raw invitations to identify respondents who will be sent invitations to personalized surveys. Sampling occurs after an importer collects the raw invitation data, and before a program causes the invitations to be sent."
+      },
+      {
+        "_id": "641482ece5bcb80d0373da4d",
+        "term": "Social media",
+        "definition": "Solicits and manages feedback from social media sites."
+      },
+      {
+        "_id": "6414830201f9110e35140fe6",
+        "term": "User accounts",
+        "definition": "See Users."
+      },
+      {
+        "_id": "641483702bbcc2004a1d7bd7",
+        "term": "Administrator",
+        "definition": "A user with administrative permissions who can access Medallia Admin Suite or Setup."
+      },
+      {
+        "_id": "6414839db3e46300663516eb",
+        "term": "Customer",
+        "definition": "A customer of the company; a person who fills out a survey and interacts with a Unit."
+      },
+      {
+        "_id": "641483aada9d5c00739761c3",
+        "term": "Unit",
+        "definition": "The part of a company with which individuals interact; examples include front-line representatives, call center agents, employees, physical locations (stores, hotels), or websites.  Units are the lowest common node in the organization."
+      },
+      {
+        "_id": "641483f975db220c730a1550",
+        "term": "Instance",
+        "definition": "A specific (company) deployment. Users typically access a single instance, though a company may have multiple instances on Medallia Experience Cloud."
+      },
+      {
+        "_id": "6414846164981c0b94e1b04d",
+        "term": "Text Analytics",
+        "definition": "The process of deriving meaningful insights from unstructured text feedback. This feedback is an essential resource for discovering and prioritizing potential improvements to the customer experience."
+      }
+    ],
+    "variables": {
+      "user": {},
+      "defaults": [
+        {
+          "source": "server",
+          "_id": "62e95b5748eed800139198ec",
+          "name": "conversations-api-gateway-hostname",
+          "default": "conversations.sc4.medallia.com",
+          "apiSetting": "61035cfaf45dafcfc5752d1a",
+          "type": ""
+        },
+        {
+          "source": "server",
+          "_id": "62e95b5748eed800139198eb",
+          "name": "adapter-api-gateway-hostname",
+          "default": "adapter-gateway.example.com",
+          "apiSetting": "61035cfaf45dafcfc5752d1a",
+          "type": ""
+        },
+        {
+          "source": "security",
+          "_id": "62e95b5748eed800139198ea",
+          "name": "conversationsOauth",
+          "type": "oauth2",
+          "apiSetting": "61035cfaf45dafcfc5752d1a"
+        },
+        {
+          "source": "server",
+          "_id": "67069881074b3000388f9652",
+          "name": "api-gateway-hostname",
+          "default": "instance-tenant.apis.medallia.com",
+          "apiSetting": "605ecf841b06fc0071ecc3fd",
+          "type": ""
+        },
+        {
+          "source": "security",
+          "_id": "67069881074b3000388f9651",
+          "name": "mecOauth",
+          "type": "oauth2",
+          "apiSetting": "605ecf841b06fc0071ecc3fd"
+        }
+      ]
+    }
+  },
+  "suggestedEdits": true
+}
