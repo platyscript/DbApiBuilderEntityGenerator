@@ -22,7 +22,7 @@ public class GeneratorModel
   /// <value>
   /// The project directory.
   /// </value>
-  public string? Directory { get; set; }
+  public string? OutputDirectory { get; set; }
 
   /// <summary>
   /// Gets or sets the database to generate code for.

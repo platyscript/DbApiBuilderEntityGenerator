@@ -15,7 +15,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\DbApiBuilderEntityGenerator.Core\DbApiBuilderEntityGenerator.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Options\*.yaml" />
   </ItemGroup>
 
 </Project>
