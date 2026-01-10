@@ -25,7 +25,7 @@ public class ConfigurationSerializer : IConfigurationSerializer
   /// <summary>
   /// The options file name. Default 'generation.yml'
   /// </summary>
-  public const string OptionsFileName = "generation.yml";
+  public const string OptionsFileName = "sample.yaml";
 
   /// <summary>
   /// Loads the options file using the specified <paramref name="directory"/> and <paramref name="file"/>.
