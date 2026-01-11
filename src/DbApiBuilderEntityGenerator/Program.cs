@@ -33,7 +33,7 @@ public class Program : CommandBase
           )
           .AddSingleton(PhysicalConsole.Singleton)
           .AddTransient<IConfigurationSerializer, ConfigurationSerializer>()
-          //.AddTransient<ICodeGenerator, CodeGenerator>()
+          .AddTransient<ICodeGenerator, CodeGenerator>()
           .BuildServiceProvider();
 
       var app = new CommandLineApplication<Program>();

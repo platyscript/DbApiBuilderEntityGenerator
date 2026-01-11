@@ -11,8 +11,11 @@ namespace DbApiBuilderEntityGenerator;
 [Command("generate", "gen")]
 public class GenerateCommand : OptionsCommandBase
 {
-  public GenerateCommand(ILoggerFactory logger, IConsole console, IConfigurationSerializer serializer) : base(logger, console, serializer)
+  private readonly ICodeGenerator _codeGenerator;
+
+  public GenerateCommand(ILoggerFactory logger, IConsole console, IConfigurationSerializer serializer, ICodeGenerator codeGenerator) : base(logger, console, serializer)
   {
+    this._codeGenerator = codeGenerator;
   }
 
   [Option("-p <Provider>", Description = "Database provider to reverse engineer")]
@@ -45,7 +48,7 @@ public class GenerateCommand : OptionsCommandBase
     // convert to options format to support variables
     var options = OptionMapper.Map(configuration);
 
-    //    var result = _codeGenerator.Generate(options);
+    var result = _codeGenerator.Generate(options);
 
     return 0;
 
