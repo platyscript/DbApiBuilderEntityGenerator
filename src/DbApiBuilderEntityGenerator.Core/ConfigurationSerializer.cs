@@ -27,6 +27,14 @@ public class ConfigurationSerializer : IConfigurationSerializer
   /// </summary>
   public const string OptionsFileName = "sample.yaml";
 
+
+  public const string OutputFileName = "data-config.yaml";
+
+  /// <summary>
+  /// The options file name. Default 'generation.yml'
+  /// </summary>
+  public const string TemplateFilePath = "DbApiBuilderEntityGenerator.template.config-template.csx";
+
   /// <summary>
   /// Loads the options file using the specified <paramref name="directory"/> and <paramref name="file"/>.
   /// </summary>

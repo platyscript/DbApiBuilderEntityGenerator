@@ -1,6 +1,8 @@
 using System;
 using DbApiBuilderEntityGenerator.Core.Extensions;
+using DbApiBuilderEntityGenerator.Core.Metadata.Generation;
 using DbApiBuilderEntityGenerator.Core.Options;
+using DbApiBuilderEntityGenerator.Core.Scripts;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.EntityFrameworkCore.Scaffolding;
 using Microsoft.EntityFrameworkCore.Scaffolding.Metadata;
@@ -38,7 +40,41 @@ public class CodeGenerator : ICodeGenerator
 
     var context = _modelGenerator.Generate(Options, databaseModel, databaseProviders.mapping);
 
+    GenerateContextScriptTemplates(context);
+
     return true;
+  }
+
+  private void GenerateContextScriptTemplates(EntityContext entityContext)
+  {
+    var templateOption = new TemplateOptions();
+    templateOption.Directory = Environment.CurrentDirectory;
+    templateOption.FileName = "yaml-entity-context.yaml";
+    templateOption.TemplatePath = Path.Combine(Environment.CurrentDirectory, "yaml-entity.csx");
+    if (!VerifyScriptTemplate(templateOption))
+      return;
+
+    try
+    {
+      var template = new ContextScriptTemplate(_loggerFactory, Options, templateOption);
+      template.RunScript(entityContext);
+    }
+    catch (Exception ex)
+    {
+      _logger.LogError(ex, "Error Running Context Template: {message}", ex.Message);
+    }
+  }
+
+  private bool VerifyScriptTemplate(TemplateOptions templateOption)
+  {
+    var templatePath = templateOption.TemplatePath;
+    // var templatePath = Path.Combine(templateOption.Directory, templateOption.FileName);
+
+    if (File.Exists(templatePath))
+      return true;
+
+    _logger.LogWarning("Template '{template}' could not be found.", templatePath);
+    return false;
   }
   private DatabaseModel GetDatabaseModel(IDatabaseModelFactory factory)
   {

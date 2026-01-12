@@ -103,5 +103,16 @@ public class GeneratorModel
   /// The renaming expressions.
   /// </value>
   public SelectionModel? Renaming { get; set; }
+
+
+  /// <summary>
+  /// Gets or sets the renaming expressions.
+  /// </summary>
+  /// <value>
+  /// The renaming expressions.
+  /// </value>
+  public string? OutputFileName { get; set; }
+
+  public string? TemplateFilePath { get; set; }
 }
 

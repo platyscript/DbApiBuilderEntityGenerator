@@ -26,6 +26,12 @@
 <ItemGroup>
   <Folder Include="Metadata\" />
   <Folder Include="Metadata\Generation\" />
+  <Folder Include="Scripts\" />
   <Folder Include="Serialization\" />
+  <Folder Include="template\" />
 </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="template\dab-config.csx" />
+  </ItemGroup>
+
 </Project>

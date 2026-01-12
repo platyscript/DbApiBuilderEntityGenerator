@@ -16,6 +16,11 @@ public class OptionsBase
   {
 
   }
+  public OptionsBase(VariableDictionary variables)
+  {
+    Variables = variables;
+  }
+
   public VariableDictionary Variables { get; } = new VariableDictionary();
 
   public string? Prefix { get; }

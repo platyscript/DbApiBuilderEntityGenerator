@@ -44,7 +44,6 @@ public class GenerateCommand : OptionsCommandBase
     if (Provider.HasValue)
       configuration.Provider = Provider.Value;
 
-
     // convert to options format to support variables
     var options = OptionMapper.Map(configuration);
 

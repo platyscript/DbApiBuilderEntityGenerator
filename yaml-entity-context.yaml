@@ -1,0 +1,895 @@
+EntityClass: Authors
+ContextProperty: 
+TableSchema: 'dbo'
+TableName: 'authors'
+IsView: False
+Properties:
+    - PropertyName: AuId
+      ColumnName: 'au_id'
+      StoreType: varchar(11)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 11
+      IsNullable: False
+      IsPrimaryKey: True
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: AuLname
+      ColumnName: 'au_lname'
+      StoreType: varchar(40)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 40
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: AuFname
+      ColumnName: 'au_fname'
+      StoreType: varchar(20)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 20
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Phone
+      ColumnName: 'phone'
+      StoreType: char(12)
+      NativeType: '@char'
+      DataType: AnsiStringFixedLength
+      SystemType: String
+      Size: 12
+      Default: '('UNKNOWN')'
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Address
+      ColumnName: 'address'
+      StoreType: varchar(40)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 40
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: City
+      ColumnName: 'city'
+      StoreType: varchar(20)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 20
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: State
+      ColumnName: 'state'
+      StoreType: char(2)
+      NativeType: '@char'
+      DataType: AnsiStringFixedLength
+      SystemType: String
+      Size: 2
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Zip
+      ColumnName: 'zip'
+      StoreType: char(5)
+      NativeType: '@char'
+      DataType: AnsiStringFixedLength
+      SystemType: String
+      Size: 5
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Contract
+      ColumnName: 'contract'
+      StoreType: bit
+      NativeType: 'bit'
+      DataType: Boolean
+      SystemType: Boolean
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+EntityClass: Discounts
+ContextProperty: 
+TableSchema: 'dbo'
+TableName: 'discounts'
+IsView: False
+Properties:
+    - PropertyName: Discounttype
+      ColumnName: 'discounttype'
+      StoreType: varchar(40)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 40
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: StorId
+      ColumnName: 'stor_id'
+      StoreType: char(4)
+      NativeType: '@char'
+      DataType: AnsiStringFixedLength
+      SystemType: String
+      Size: 4
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: True
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Lowqty
+      ColumnName: 'lowqty'
+      StoreType: smallint
+      NativeType: 'smallint'
+      DataType: Int16
+      SystemType: Int16
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Highqty
+      ColumnName: 'highqty'
+      StoreType: smallint
+      NativeType: 'smallint'
+      DataType: Int16
+      SystemType: Int16
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Discount
+      ColumnName: 'discount'
+      StoreType: decimal(4,2)
+      NativeType: '@decimal'
+      DataType: Decimal
+      SystemType: Decimal
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+EntityClass: Stores
+ContextProperty: 
+TableSchema: 'dbo'
+TableName: 'stores'
+IsView: False
+Properties:
+    - PropertyName: StorId
+      ColumnName: 'stor_id'
+      StoreType: char(4)
+      NativeType: '@char'
+      DataType: AnsiStringFixedLength
+      SystemType: String
+      Size: 4
+      IsNullable: False
+      IsPrimaryKey: True
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: StorName
+      ColumnName: 'stor_name'
+      StoreType: varchar(40)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 40
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: StorAddress
+      ColumnName: 'stor_address'
+      StoreType: varchar(40)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 40
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: City
+      ColumnName: 'city'
+      StoreType: varchar(20)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 20
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: State
+      ColumnName: 'state'
+      StoreType: char(2)
+      NativeType: '@char'
+      DataType: AnsiStringFixedLength
+      SystemType: String
+      Size: 2
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Zip
+      ColumnName: 'zip'
+      StoreType: char(5)
+      NativeType: '@char'
+      DataType: AnsiStringFixedLength
+      SystemType: String
+      Size: 5
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+EntityClass: Employee
+ContextProperty: 
+TableSchema: 'dbo'
+TableName: 'employee'
+IsView: False
+Properties:
+    - PropertyName: EmpId
+      ColumnName: 'emp_id'
+      StoreType: char(9)
+      NativeType: '@char'
+      DataType: AnsiStringFixedLength
+      SystemType: String
+      Size: 9
+      IsNullable: False
+      IsPrimaryKey: True
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Fname
+      ColumnName: 'fname'
+      StoreType: varchar(20)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 20
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Minit
+      ColumnName: 'minit'
+      StoreType: char(1)
+      NativeType: '@char'
+      DataType: AnsiStringFixedLength
+      SystemType: String
+      Size: 1
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Lname
+      ColumnName: 'lname'
+      StoreType: varchar(30)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 30
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: JobId
+      ColumnName: 'job_id'
+      StoreType: smallint
+      NativeType: 'smallint'
+      DataType: Int16
+      SystemType: Int16
+      Default: '((1))'
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: True
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: JobLvl
+      ColumnName: 'job_lvl'
+      StoreType: tinyint
+      NativeType: 'tinyint'
+      DataType: Byte
+      SystemType: Byte
+      Default: '((10))'
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: PubId
+      ColumnName: 'pub_id'
+      StoreType: char(4)
+      NativeType: '@char'
+      DataType: AnsiStringFixedLength
+      SystemType: String
+      Size: 4
+      Default: '('9952')'
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: True
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: HireDate
+      ColumnName: 'hire_date'
+      StoreType: datetime
+      NativeType: 'datetime'
+      DataType: DateTime
+      SystemType: DateTime
+      Default: '(getdate())'
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+EntityClass: Jobs
+ContextProperty: 
+TableSchema: 'dbo'
+TableName: 'jobs'
+IsView: False
+Properties:
+    - PropertyName: JobId
+      ColumnName: 'job_id'
+      StoreType: smallint
+      NativeType: 'smallint'
+      DataType: Int16
+      SystemType: Int16
+      ValueGenerated: OnAdd
+      IsNullable: False
+      IsPrimaryKey: True
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: JobDesc
+      ColumnName: 'job_desc'
+      StoreType: varchar(50)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 50
+      Default: '('New Position - title not formalized yet')'
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: MinLvl
+      ColumnName: 'min_lvl'
+      StoreType: tinyint
+      NativeType: 'tinyint'
+      DataType: Byte
+      SystemType: Byte
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: MaxLvl
+      ColumnName: 'max_lvl'
+      StoreType: tinyint
+      NativeType: 'tinyint'
+      DataType: Byte
+      SystemType: Byte
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+EntityClass: Publishers
+ContextProperty: 
+TableSchema: 'dbo'
+TableName: 'publishers'
+IsView: False
+Properties:
+    - PropertyName: PubId
+      ColumnName: 'pub_id'
+      StoreType: char(4)
+      NativeType: '@char'
+      DataType: AnsiStringFixedLength
+      SystemType: String
+      Size: 4
+      IsNullable: False
+      IsPrimaryKey: True
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: PubName
+      ColumnName: 'pub_name'
+      StoreType: varchar(40)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 40
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: City
+      ColumnName: 'city'
+      StoreType: varchar(20)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 20
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: State
+      ColumnName: 'state'
+      StoreType: char(2)
+      NativeType: '@char'
+      DataType: AnsiStringFixedLength
+      SystemType: String
+      Size: 2
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Country
+      ColumnName: 'country'
+      StoreType: varchar(30)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 30
+      Default: '('USA')'
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+EntityClass: PubInfo
+ContextProperty: 
+TableSchema: 'dbo'
+TableName: 'pub_info'
+IsView: False
+Properties:
+    - PropertyName: PubId
+      ColumnName: 'pub_id'
+      StoreType: char(4)
+      NativeType: '@char'
+      DataType: AnsiStringFixedLength
+      SystemType: String
+      Size: 4
+      IsNullable: False
+      IsPrimaryKey: True
+      IsForeignKey: True
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Logo
+      ColumnName: 'logo'
+      StoreType: image
+      NativeType: 'image'
+      DataType: Binary
+      SystemType: Byte[]
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: PrInfo
+      ColumnName: 'pr_info'
+      StoreType: text
+      NativeType: 'text'
+      DataType: AnsiString
+      SystemType: String
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+EntityClass: Roysched
+ContextProperty: 
+TableSchema: 'dbo'
+TableName: 'roysched'
+IsView: False
+Properties:
+    - PropertyName: TitleId
+      ColumnName: 'title_id'
+      StoreType: varchar(6)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 6
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: True
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Lorange
+      ColumnName: 'lorange'
+      StoreType: @int
+      NativeType: '@int'
+      DataType: Int32
+      SystemType: Int32
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Hirange
+      ColumnName: 'hirange'
+      StoreType: @int
+      NativeType: '@int'
+      DataType: Int32
+      SystemType: Int32
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Royalty
+      ColumnName: 'royalty'
+      StoreType: @int
+      NativeType: '@int'
+      DataType: Int32
+      SystemType: Int32
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+EntityClass: Titles
+ContextProperty: 
+TableSchema: 'dbo'
+TableName: 'titles'
+IsView: False
+Properties:
+    - PropertyName: TitleId
+      ColumnName: 'title_id'
+      StoreType: varchar(6)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 6
+      IsNullable: False
+      IsPrimaryKey: True
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Title
+      ColumnName: 'title'
+      StoreType: varchar(80)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 80
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Type
+      ColumnName: 'type'
+      StoreType: char(12)
+      NativeType: '@char'
+      DataType: AnsiStringFixedLength
+      SystemType: String
+      Size: 12
+      Default: '('UNDECIDED')'
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: PubId
+      ColumnName: 'pub_id'
+      StoreType: char(4)
+      NativeType: '@char'
+      DataType: AnsiStringFixedLength
+      SystemType: String
+      Size: 4
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: True
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Price
+      ColumnName: 'price'
+      StoreType: money
+      NativeType: 'money'
+      DataType: Currency
+      SystemType: Decimal
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Advance
+      ColumnName: 'advance'
+      StoreType: money
+      NativeType: 'money'
+      DataType: Currency
+      SystemType: Decimal
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Royalty
+      ColumnName: 'royalty'
+      StoreType: @int
+      NativeType: '@int'
+      DataType: Int32
+      SystemType: Int32
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: YtdSales
+      ColumnName: 'ytd_sales'
+      StoreType: @int
+      NativeType: '@int'
+      DataType: Int32
+      SystemType: Int32
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Notes
+      ColumnName: 'notes'
+      StoreType: varchar(200)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 200
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Pubdate
+      ColumnName: 'pubdate'
+      StoreType: datetime
+      NativeType: 'datetime'
+      DataType: DateTime
+      SystemType: DateTime
+      Default: '(getdate())'
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+EntityClass: Sales
+ContextProperty: 
+TableSchema: 'dbo'
+TableName: 'sales'
+IsView: False
+Properties:
+    - PropertyName: StorId
+      ColumnName: 'stor_id'
+      StoreType: char(4)
+      NativeType: '@char'
+      DataType: AnsiStringFixedLength
+      SystemType: String
+      Size: 4
+      IsNullable: False
+      IsPrimaryKey: True
+      IsForeignKey: True
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: OrdNum
+      ColumnName: 'ord_num'
+      StoreType: varchar(20)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 20
+      IsNullable: False
+      IsPrimaryKey: True
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: OrdDate
+      ColumnName: 'ord_date'
+      StoreType: datetime
+      NativeType: 'datetime'
+      DataType: DateTime
+      SystemType: DateTime
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Qty
+      ColumnName: 'qty'
+      StoreType: smallint
+      NativeType: 'smallint'
+      DataType: Int16
+      SystemType: Int16
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Payterms
+      ColumnName: 'payterms'
+      StoreType: varchar(12)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 12
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: TitleId
+      ColumnName: 'title_id'
+      StoreType: varchar(6)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 6
+      IsNullable: False
+      IsPrimaryKey: True
+      IsForeignKey: True
+      IsRowVersion: False
+      IsUnique: False
+EntityClass: Titleauthor
+ContextProperty: 
+TableSchema: 'dbo'
+TableName: 'titleauthor'
+IsView: False
+Properties:
+    - PropertyName: AuId
+      ColumnName: 'au_id'
+      StoreType: varchar(11)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 11
+      IsNullable: False
+      IsPrimaryKey: True
+      IsForeignKey: True
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: TitleId
+      ColumnName: 'title_id'
+      StoreType: varchar(6)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 6
+      IsNullable: False
+      IsPrimaryKey: True
+      IsForeignKey: True
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: AuOrd
+      ColumnName: 'au_ord'
+      StoreType: tinyint
+      NativeType: 'tinyint'
+      DataType: Byte
+      SystemType: Byte
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Royaltyper
+      ColumnName: 'royaltyper'
+      StoreType: @int
+      NativeType: '@int'
+      DataType: Int32
+      SystemType: Int32
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+EntityClass: Titleview
+ContextProperty: 
+TableSchema: 'dbo'
+TableName: 'titleview'
+IsView: True
+Properties:
+    - PropertyName: Title
+      ColumnName: 'title'
+      StoreType: varchar(80)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 80
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: AuOrd
+      ColumnName: 'au_ord'
+      StoreType: tinyint
+      NativeType: 'tinyint'
+      DataType: Byte
+      SystemType: Byte
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: AuLname
+      ColumnName: 'au_lname'
+      StoreType: varchar(40)
+      NativeType: 'varchar'
+      DataType: AnsiString
+      SystemType: String
+      Size: 40
+      IsNullable: False
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: Price
+      ColumnName: 'price'
+      StoreType: money
+      NativeType: 'money'
+      DataType: Currency
+      SystemType: Decimal
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: YtdSales
+      ColumnName: 'ytd_sales'
+      StoreType: @int
+      NativeType: '@int'
+      DataType: Int32
+      SystemType: Int32
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False
+    - PropertyName: PubId
+      ColumnName: 'pub_id'
+      StoreType: char(4)
+      NativeType: '@char'
+      DataType: AnsiStringFixedLength
+      SystemType: String
+      Size: 4
+      IsNullable: True
+      IsPrimaryKey: False
+      IsForeignKey: False
+      IsRowVersion: False
+      IsUnique: False

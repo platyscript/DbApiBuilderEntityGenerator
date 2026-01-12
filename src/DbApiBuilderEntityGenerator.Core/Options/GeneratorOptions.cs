@@ -123,4 +123,13 @@ public class GeneratorOptions : OptionsBase
   /// </value>
   public SelectionOptions Renaming { get; }
 
+  /// <summary>
+  /// Gets or sets the renaming expressions.
+  /// </summary>
+  /// <value>
+  /// The renaming expressions.
+  /// </value>
+  public string? OutputFileName { get; set; }
+
+  public string? TemplateFilePath { get; set; }
 }

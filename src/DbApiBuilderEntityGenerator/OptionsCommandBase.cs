@@ -20,4 +20,10 @@ public abstract class OptionsCommandBase : CommandBase
 
   [Option("-f <file>", Description = "The options file name")]
   public string OptionsFile { get; set; } = ConfigurationSerializer.OptionsFileName;
+
+  [Option("-o <file-name>", Description = "The options file name")]
+  public string OutputFileName { get; set; } = ConfigurationSerializer.OutputFileName;
+
+  [Option("-t <templateFilePath>", Description = "The path to the template file name")]
+  public string TemplateFilePath { get; set; } = ConfigurationSerializer.TemplateFilePath;
 }
