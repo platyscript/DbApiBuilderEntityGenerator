@@ -10,8 +10,7 @@ public class SelectionOptions : OptionsBase
   /// <summary>
   /// Initializes a new instance of the <see cref="SelectionOptions"/> class.
   /// </summary>
-  public SelectionOptions(VariableDictionary variables, string? prefix)
-      : base(variables, prefix)
+  public SelectionOptions()
   {
     Entities = [];
     Properties = [];

@@ -48,4 +48,4 @@ renaming:
   properties:
     - ^{Table.Name}(?=Id|Name)
 
-templateFilePath: ./template/dab-config1.csx 
+#templateFilePath: ./template/dab-config1.csx 

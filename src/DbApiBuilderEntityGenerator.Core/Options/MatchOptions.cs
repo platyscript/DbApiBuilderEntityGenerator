@@ -15,8 +15,7 @@ public class MatchOptions : OptionsBase
   /// </summary>
   /// <param name="variables">The shared variables dictionary.</param>
   /// <param name="prefix">The variable key prefix.</param>
-  public MatchOptions(VariableDictionary variables, string? prefix)
-      : base(variables, prefix)
+  public MatchOptions()
   {
   }
 

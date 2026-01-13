@@ -37,18 +37,18 @@
     <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="4.1.1" />
     <PackageReference Include="Serilog.Extensions.Hosting" Version="10.0.0" />
     <PackageReference Include="Serilog.Sinks.Console" Version="6.1.1" />
+    <PackageReference Include="AssemblyMetadata.Generators" Version="2.1.0" PrivateAssets="All" />
+    <PackageReference Include="MinVer" Version="6.0.0" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
-    <ExeFiles Include="$(TargetDir)\**\*"/>
+    <ExeFiles Include="$(TargetDir)\**\*" />
   </ItemGroup>
 
   <Target Name="CopyDLLs" AfterTargets="Build">
     <Message Text="Executing CopyDLLs task" Importance="High" />
 
-    <Copy
-      SourceFiles="@(ExeFiles)"
-      DestinationFolder="../../../dab-entity-gen/" />
+    <Copy SourceFiles="@(ExeFiles)" DestinationFolder="../../../dab-entity-gen/" />
 
     <Message Text="Copied build files" Importance="High" />
   </Target>
@@ -60,6 +60,10 @@
       <PackagePath>\</PackagePath>
       <Visible>false</Visible>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="template\" />
   </ItemGroup>
 
 </Project>

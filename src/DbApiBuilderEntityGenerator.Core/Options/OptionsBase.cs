@@ -12,12 +12,16 @@ public class OptionsBase
   /// </summary>
   /// <param name="variables">The shared variables dictionary.</param>
   /// <param name="prefix">The variable key prefix.</param>
-  public OptionsBase(VariableDictionary variables, string? prefix)
+  public OptionsBase()
   {
-    ArgumentNullException.ThrowIfNull(variables);
 
   }
-  public VariableDictionary Variables { get; }
+  public OptionsBase(VariableDictionary variables)
+  {
+    Variables = variables;
+  }
+
+  public VariableDictionary Variables { get; } = new VariableDictionary();
 
   public string? Prefix { get; }
 

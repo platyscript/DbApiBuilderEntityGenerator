@@ -11,17 +11,17 @@ public class GeneratorOptions : OptionsBase
   /// <summary>
   /// Initializes a new instance of the <see cref="GeneratorOptions"/> class.
   /// </summary>
-  public GeneratorOptions(VariableDictionary variables,
-    string? prefix) : base(variables, null)
+  public GeneratorOptions()
   {
-    Variables = variables;
+    Variables = new VariableDictionary();
     Provider = DatabaseProviders.SqlServer;
     Directory = @".\";
     Tables = [];
     Schemas = [];
-    Exclude = new DatabaseMatchOptions(Variables, Prefix);
+    Exclude = new DatabaseMatchOptions();
     EntityNaming = EntityNaming.Singular;
     RelationshipNaming = RelationshipNaming.Plural;
+    Renaming = new SelectionOptions();
   }
 
   [YamlIgnore]
@@ -123,4 +123,19 @@ public class GeneratorOptions : OptionsBase
   /// </value>
   public SelectionOptions Renaming { get; }
 
+  /// <summary>
+  /// Gets or sets the renaming expressions.
+  /// </summary>
+  /// <value>
+  /// The renaming expressions.
+  /// </value>
+  public string? OutputFileName { get; set; }
+
+  /// <summary>
+  /// Gets or sets the renaming expressions.
+  /// </summary>
+  /// <value>
+  /// The renaming expressions.
+  /// </value>
+  public string? TemplateFilePath { get; set; }
 }

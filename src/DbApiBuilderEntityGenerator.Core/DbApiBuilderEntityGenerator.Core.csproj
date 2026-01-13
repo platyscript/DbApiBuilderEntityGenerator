@@ -24,6 +24,15 @@
     <PackageReference Include="YamlDotNet" Version="16.3.0" />
   </ItemGroup>
 <ItemGroup>
+  <Folder Include="Metadata\" />
+  <Folder Include="Metadata\Generation\" />
+  <Folder Include="Scripts\" />
   <Folder Include="Serialization\" />
+  <Folder Include="template\" />
 </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="template\dab-config.csx" />
+    <EmbeddedResource Include="template\dab-config1.csx" />
+  </ItemGroup>
+
 </Project>
