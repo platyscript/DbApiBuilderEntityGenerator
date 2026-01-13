@@ -21,7 +21,7 @@
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/platyscript/DbApiBuilderEntityGenerator</RepositoryUrl>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <Version>1.0.2-alpha</Version>  
+    <Version>1.0.3-alpha</Version>  
      <PackageReleaseNotes>
       * Net9
     </PackageReleaseNotes>
