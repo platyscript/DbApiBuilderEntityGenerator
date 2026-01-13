@@ -31,11 +31,11 @@ public abstract class ScriptTemplateBase<TVariable> where TVariable : ScriptVari
   {
     var templatePath = TemplateOptions.TemplatePath;
 
-    // if (!File.Exists(templatePath))
-    // {
-    //   Logger.LogWarning("Template '{template}' could not be found.", templatePath);
-    //   return;
-    // }
+    if (!templatePath.IsNullOrWhiteSpace() && !File.Exists(templatePath))
+    {
+      Logger.LogWarning("Template '{template}' could not be found.", templatePath);
+      return;
+    }
 
     // save file
     var directory = TemplateOptions.Directory;
@@ -43,7 +43,7 @@ public abstract class ScriptTemplateBase<TVariable> where TVariable : ScriptVari
 
     if (directory.IsNullOrEmpty() || fileName.IsNullOrEmpty())
     {
-      Logger.LogWarning("Template '{template}' could not resolve output file.", templatePath);
+      Logger.LogWarning("Template could not resolve output file.");
       return;
     }
 
@@ -60,7 +60,7 @@ public abstract class ScriptTemplateBase<TVariable> where TVariable : ScriptVari
 
     if (content.IsNullOrWhiteSpace())
     {
-      Logger.LogDebug("Skipping template '{template}' because it didn't return any text.", templatePath);
+      Logger.LogDebug("Skipping template because it didn't return any text.");
       return;
     }
 
@@ -69,7 +69,7 @@ public abstract class ScriptTemplateBase<TVariable> where TVariable : ScriptVari
   protected virtual string ExecuteScript()
   {
     var templatePath = TemplateOptions.TemplatePath;
-    if (!File.Exists(templatePath))
+    if (!templatePath.IsNullOrWhiteSpace() && !File.Exists(templatePath))
     {
       Logger.LogWarning("Template '{template}' could not be found.", templatePath);
       return string.Empty;
@@ -90,11 +90,20 @@ public abstract class ScriptTemplateBase<TVariable> where TVariable : ScriptVari
 
     Logger.LogDebug("Loading template script: {script}", scriptPath);
 
-    var scriptContent = File.ReadAllText(scriptPath);
+    string scriptContent = String.Empty;
 
-    scriptContent = Assembly.GetExecutingAssembly()
-                .ReadResourceAsync("DbApiBuilderEntityGenerator.Core.template.dab-config.csx")
-                .Result;
+    if (scriptPath.IsNullOrEmpty())
+    {
+      scriptContent = Assembly.GetExecutingAssembly()
+                 .ReadResourceAsync("DbApiBuilderEntityGenerator.Core.template.dab-config1.csx")
+                 .Result;
+
+    }
+    else
+    {
+      scriptContent = File.ReadAllText(scriptPath);
+    }
+
     var scriptOptions = ScriptOptions.Default
         .WithReferences(
             typeof(ScriptVariablesBase).Assembly

@@ -349,7 +349,8 @@ public partial class ModelGenerator
     }
     foreignRelationship.IsMapped = true;
     foreignRelationship.IsForeignKey = true;
-    foreignRelationship.Cardinality = foreignMembersRequired ? Cardinality.One : Cardinality.ZeroOrOne;
+    foreignRelationship.Cardinality = foreignMembersRequired ? Cardinality.One : Cardinality.Many;
+    // foreignRelationship.Cardinality = foreignMembersRequired ? Cardinality.One : Cardinality.ZeroOrOne;
 
     foreignRelationship.PrimaryEntity = primaryEntity;
     foreignRelationship.PrimaryProperties = [.. primaryMembers];
@@ -384,9 +385,15 @@ public partial class ModelGenerator
 
     bool isOneToOne = IsOneToOne(tableKeySchema, foreignRelationship);
     if (isOneToOne)
-      primaryRelationship.Cardinality = primaryMembersRequired ? Cardinality.One : Cardinality.ZeroOrOne;
+    {
+      // primaryRelationship.Cardinality = primaryMembersRequired ? Cardinality.One : Cardinality.ZeroOrOne;
+      primaryRelationship.Cardinality = primaryMembersRequired ? Cardinality.One : Cardinality.Many;
+
+    }
     else
+    {
       primaryRelationship.Cardinality = Cardinality.Many;
+    }
 
     string primaryPropertyName = prefix + foreignName;
     if (!isOneToOne)

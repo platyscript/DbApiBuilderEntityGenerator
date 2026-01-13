@@ -48,10 +48,10 @@ public class CodeGenerator : ICodeGenerator
   private void GenerateContextScriptTemplates(EntityContext entityContext)
   {
     var templateOption = new TemplateOptions();
-    templateOption.Directory = Environment.CurrentDirectory;
-    templateOption.FileName = "yaml-entity-context.yaml";
-    templateOption.TemplatePath = Path.Combine(Environment.CurrentDirectory, "yaml-entity.csx");
-    if (!VerifyScriptTemplate(templateOption))
+    templateOption.Directory = Options.Directory ?? Environment.CurrentDirectory;
+    templateOption.FileName = Options.OutputFileName ?? "dab-config.json";
+    templateOption.TemplatePath = Options.TemplateFilePath;
+    if (!templateOption.TemplatePath.IsNullOrWhiteSpace() && !VerifyScriptTemplate(templateOption))
       return;
 
     try
@@ -68,7 +68,6 @@ public class CodeGenerator : ICodeGenerator
   private bool VerifyScriptTemplate(TemplateOptions templateOption)
   {
     var templatePath = templateOption.TemplatePath;
-    // var templatePath = Path.Combine(templateOption.Directory, templateOption.FileName);
 
     if (File.Exists(templatePath))
       return true;

@@ -131,5 +131,11 @@ public class GeneratorOptions : OptionsBase
   /// </value>
   public string? OutputFileName { get; set; }
 
+  /// <summary>
+  /// Gets or sets the renaming expressions.
+  /// </summary>
+  /// <value>
+  /// The renaming expressions.
+  /// </value>
   public string? TemplateFilePath { get; set; }
 }

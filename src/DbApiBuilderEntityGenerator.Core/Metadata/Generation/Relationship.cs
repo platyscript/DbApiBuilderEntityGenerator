@@ -14,7 +14,6 @@ public class Relationship : ModelBase
 
   public string? RelationshipName { get; set; }
 
-
   public Entity Entity { get; set; } = null!;
 
   public PropertyCollection Properties { get; set; }

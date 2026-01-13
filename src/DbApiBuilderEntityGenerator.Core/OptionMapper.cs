@@ -19,6 +19,7 @@ public static class OptionMapper
     MapDatabaseMatch(options.Exclude, generator.Exclude);
     options.EntityNaming = generator.EntityNaming;
     options.RelationshipNaming = generator.RelationshipNaming;
+    options.TemplateFilePath = generator.TemplateFilePath;
     MapSelection(options.Renaming, generator.Renaming);
 
     options.Variables.ShouldEvaluate = true;

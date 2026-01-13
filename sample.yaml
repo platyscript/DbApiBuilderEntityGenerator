@@ -47,3 +47,5 @@ renaming:
     - ^(sp|tbl|udf|vw)_
   properties:
     - ^{Table.Name}(?=Id|Name)
+
+#templateFilePath: ./template/dab-config1.csx 
