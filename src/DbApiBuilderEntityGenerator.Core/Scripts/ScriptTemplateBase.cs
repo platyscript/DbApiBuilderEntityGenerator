@@ -95,7 +95,7 @@ public abstract class ScriptTemplateBase<TVariable> where TVariable : ScriptVari
     if (scriptPath.IsNullOrEmpty())
     {
       scriptContent = Assembly.GetExecutingAssembly()
-                 .ReadResourceAsync("DbApiBuilderEntityGenerator.Core.template.dab-config1.csx")
+                 .ReadResourceAsync("DbApiBuilderEntityGenerator.Core.template.dab-config.csx")
                  .Result;
 
     }

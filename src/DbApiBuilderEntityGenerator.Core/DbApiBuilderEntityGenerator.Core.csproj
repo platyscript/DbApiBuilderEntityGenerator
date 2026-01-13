@@ -32,7 +32,6 @@
 </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="template\dab-config.csx" />
-    <EmbeddedResource Include="template\dab-config1.csx" />
   </ItemGroup>
 
 </Project>
