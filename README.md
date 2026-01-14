@@ -1,6 +1,6 @@
 # Data API Builder Entity generator
 
-This is a dotnet tool generates the [data-api-builder](https://learn.microsoft.com/en-us/azure/data-api-builder/) data-api-builder configuration file with the entites from an existing database.
+This is a dotnet tool that generates the [data-api-builder](https://learn.microsoft.com/en-us/azure/data-api-builder/) data-api-builder configuration file with the entites from an existing database.
 
 ** This is currently alpha release **
 
@@ -10,7 +10,9 @@ This is a dotnet tool generates the [data-api-builder](https://learn.microsoft.c
 
 ### Command
 
-`dab-entity-gen -p SqlServer -c Data Source=localhost;Initial Catalog=pubs;User ID=sa;Password=Passw0rd1;Encrypt=False`
+Generate the dab-config.json file. 
+
+`dab-entity-gen generate -p SqlServer -c Data Source=localhost;Initial Catalog=pubs;User ID=sa;Password=Passw0rd1;Encrypt=False -f sample.yaml`
 
 ### Configuration file
 
