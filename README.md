@@ -70,3 +70,18 @@ renaming:
 #templateFilePath: ./template/dab-config1.csx 
 
 ```
+
+## Sample Configuration
+
+Sample configuration file:- [Sample.yaml](https://github.com/platyscript/DbApiBuilderEntityGenerator/blob/update-readme/sample.yaml)
+
+## Sample template file
+
+Sample template file:- [db-config.csx](https://github.com/platyscript/DbApiBuilderEntityGenerator/blob/update-readme/src/DbApiBuilderEntityGenerator.Core/template/dab-config.csx)
+
+## Work in Progress
+
+- Permissions object is currently hardcoded. Need to get it from the database
+- Change template from csx to liquid.
+- Add an `init` command to generate an initial configuration yaml file.
+- Develop a UI to update configuratio json file once generated.
